@@ -18,4 +18,4 @@ Click "Next", and then save the project anywhere you want to on your computer.
 
 ### Next Time
 
-Now you have successfully created your new project on Xcode! In the next part, we will actually be creating the interface for the Weather App!
+Now you have successfully created your new project on Xcode! In the next part, we will be setting up Cocoapods so we can then start working on our Weather App!
