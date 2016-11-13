@@ -1,5 +1,9 @@
 ## Part 3: Set up screen layout for Weather App
 
+Open the project using Finder, and you'll see that CocoaPods created a new `Weather App.xcworkspace` file and a Pods folder in which to store all the project’s dependencies. From now on we will be using this workspace and not our `Weather App.xcodeproj`. Go ahead and close the project file, and open the workspace. Make sure to press "Later" if you're asked to convert to current Swift Syntax. Make sure everything is working by building your project (Product -> Build).
+
+### Interface Builder
+
 **Interface builder** is Xcode's GUI editor. For most projects, the interface is contained in the `Main.storyboard` file. Open it up and have a look around:
 
 <p align="center"> <img src="/images/storyboardPic.png" align="center"> </p>
