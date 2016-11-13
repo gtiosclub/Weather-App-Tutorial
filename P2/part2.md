@@ -12,7 +12,7 @@ When your Podfile is opened, it should look something like this:
 
 <p align="center"> <img src="/images/Podfile.png" align="center"> </p>
 
-Go ahead and uncomment these two lines: `# platform :ios, '8.0'` and `# use_frameworks!`. Now change the platform from iOS 8 to iOS 10. To use Alamofire and SwiftyJSON we need to add to lines to our Podfile between target `target 'Weather App' do` and `end`. If you take a look at the Github repos for these libraries, you'll see that these are the lines we need to add: `pod 'Alamofire', '~> 4.0'` and `pod 'SwiftJSON'`. When you're done your Podfile will now look like this:
+Go ahead and uncomment these two lines: `# platform :ios, '8.0'` and `# use_frameworks!`. Now change the platform from iOS 8 to iOS 10. To use Alamofire and SwiftyJSON we need to add two lines to our Podfile between `target 'Weather App' do` and `end`. If you take a look at the Github repos for these libraries, you'll see that these are the lines we need to add: `pod 'Alamofire', '~> 4.0'` and `pod 'SwiftJSON'`. When you're done your Podfile will now look like this:
 
 <p align="center"> <img src="/images/podfileWithPods.png" align="center"> </p>
 
