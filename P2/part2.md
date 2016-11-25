@@ -10,7 +10,7 @@ Once it installs the CocoaPod gem, you want to run the command `pod setup --verb
 
 ### Configuring our Pods
 
-For our Weather App, we will be using two third-party libraries: **Alamofire** and **SwiftyJSON**. We will be using Alamofire to handle networking in our app, and we will be using SwiftyJSON to parse the JSON data obtained from the DarkSky Weather API. To install our pods, we need to initialize our Podfile. 
+For our Weather App, we will be using two third-party libraries: **Alamofire** and **SwiftyJSON**. We will be using Alamofire to handle networking in our app, and we will be using SwiftyJSON to parse the JSON data obtained from the Dark Sky Weather API. To install our pods, we need to initialize our Podfile. 
 
 Open up your terminal and nagivate to the directory where you created your Xcode project. If you're unfarmiliar with the terminal, you can run the command `ls` to see where you are, `cd <folder>` to move in to a folder, and `cd ..` to move backwards.
 
