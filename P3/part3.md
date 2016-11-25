@@ -1,25 +1,31 @@
-## Part 3: Set up screen layout for Weather App
+## Part 3: Preparing the View Controller
 
-Open the project using Finder, and you'll see that CocoaPods created a new `Weather App.xcworkspace` file and a Pods folder in which to store all the project’s dependencies. From now on we will be using this workspace and not our `Weather App.xcodeproj`. Go ahead and close the project file, and open the workspace. Make sure to press "Later" if you're asked to convert to current Swift Syntax. Make sure everything is working by building your project (Product -> Build).
+Open the project folder in Finder, and you'll see that CocoaPods created a new `Weather App.xcworkspace` file and a Pods folder in which to store all the project’s dependencies. From now on we will be using this workspace and **not** our `Weather App.xcodeproj`. 
+
+Go ahead and close the project file and open the workspace. Make sure to press *Later* if you're asked to convert to current Swift syntax. Make sure everything is working by building your project (⌘B). If it fails, double check that you opened the `xcworkspace` and not the `xcodeproj`.
 
 ### Interface Builder
 
 **Interface builder** is Xcode's GUI editor. For most projects, the interface is contained in the `Main.storyboard` file. Open it up and have a look around:
 
-<p align="center"> <img src="/images/storyboardPic.png" align="center"> </p>
+<p align="center"> <img src="../images/storyboardPic.png" align="center"> </p>
 
 For this Weather app, there are 5 parts in the interface we're building:
 1. A label to display the location
 2. A label to display a description of the weather
 3. A label to display the temperature
-4. A label to display an icon
+4. A label to display an Emoji icon
 5. A bar button item to refresh the weather forecast
 
 ### Adding UI Elements
 
-Embed the view controller in a Navigation Controller (select the view controller, Editor-> Embed in -> Navigation Controller), and add the 5 elements described above as well as the necessary constraints to your storyboard. You should have a result similar to this:
+We want to use a Navigation Bar style so we can add a refresh button in the top bar. We want to embed our current View Controller in a Navigation Controller. Select the View Controller by clicking the white bar with the three icons. Then click Editor-> Embed in -> Navigation Controller. 
 
-<p align="center"> <img src="/images/uiResult.png" align="center"> </p>
+You also want to add the 5 elements described above as well as the necessary constraints to your storyboard. You should have a result similar to this:
+
+<p align="center"> <img src="../images/uiResult.png" align="center"> </p>
+
+You can enter the degrees sign with Option-K. If you don't know how to work with Autolayout constraints, you can just move on. If you want to come back to it later, our [Calculator Tutorial](http://www.iosgatech.xyz/calculator-part4.html) is a good resource to learn more about Autolayout.
 
 ### WeatherViewController
 
@@ -33,9 +39,9 @@ class WeatherViewController: UIViewController {
 }
 ```
 
-After your `WeatherViewController.swift` file is done, make sure your view controller is connected to this new file. To do this, go back to the storyboard and select the view controller. On the inspector pane to the right, select the identity inspector menu, and make sure the view controller's class is `WeatherViewController.swift`.
+After your `WeatherViewController.swift` file is done, make sure your view controller is connected to this new file. To do this, go back to the storyboard and select the View Controller. On the Inspector pane to the right, select the Identity Inspector menu, and make sure the View Controller's class is `WeatherViewController`.
 
-<p align="center"> <img src="/images/weatherVC.png" align="center"> </p>
+<p align="center"> <img src="../images/weatherVC.png" height="170px" align="center"> </p>
 
 ### Label and Button Linking
 
