@@ -2,7 +2,7 @@
 
 Open the project folder in Finder, and you'll see that CocoaPods created a new `Weather App.xcworkspace` file and a Pods folder in which to store all the project’s dependencies. From now on we will be using this workspace and **not** our `Weather App.xcodeproj`. 
 
-Go ahead and close the project file and open the workspace. Make sure to press *Later* if you're asked to convert to current Swift syntax. Make sure everything is working by building your project (⌘B). If it fails, double check that you opened the `xcworkspace` and not the `xcodeproj`.
+Go ahead and close the project file and open the workspace. Make sure to press *Later* if you're asked to convert to current Swift syntax. Make sure everything is working by building your project (⌘B). If it fails, double-check that you opened the `xcworkspace` and not the `xcodeproj`.
 
 ### Interface Builder
 
@@ -64,4 +64,4 @@ class WeatherViewController: UIViewController {
 
 ### Next Time
 
-Awesome! Now we have added connections for both the labels and the bar button item to Swift code. In the next parts, we will be using the DarkSky API to obtain weather data and show it in our newly created UI!
+Awesome! Now we have added connections for both the labels and the bar button item to Swift code. In the next parts, we will be using the Dark Sky API to obtain weather data and show it in our newly created UI!

@@ -124,4 +124,4 @@ Optional(Weather_App.WeatherData(temperature: "45 ºF", description: "Clear", ic
 
 ## Next Time
 
-Not sure what's next
+Now that we can request a forecast for a location, we'll use CoreLocation to get the user's longitude and latitude.

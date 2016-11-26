@@ -1,6 +1,6 @@
-## Part 4: Reading from the DarkSky API
+## Part 4: Reading from the Dark Sky API
 
-To get access to the current weather forecast, we'll be using Alamofire to access the **Dark Sky** Weather API. We'll encapsulate this funcionality in its own class called `DarkSkyService`. Create and open a new file called `DarkSkyService.swift`.
+To get access to the current weather forecast, we'll be using Alamofire to access the **Dark Sky** Weather API. We'll encapsulate this functionality in its own class called `DarkSkyService`. Create and open a new file called `DarkSkyService.swift`.
 
 Inside this class, you want to add string constants for the API's base URL and an API Key. You can use our key or [get your own](https://darksky.net/dev/register).
 
