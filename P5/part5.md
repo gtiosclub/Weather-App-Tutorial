@@ -67,7 +67,7 @@ self.icon = currentWeather["icon"].string ?? "--"
 
 For the temperature, we access the numerical value and then convert it to a String. If the temperature doesn't exist, we give it a placeholder.
 
-For the description and icon, we can use the shorthand nil-coelescing operator `??`. It has a mouthful of a name, but is very convenient. If the value on the left is nil / doesn't exist, it'll use the default value on the right. 
+For the description and icon, we can use the shorthand nil-coalescing operator `??`. It has a mouthful of a name, but is very convenient. If the value on the left is nil / doesn't exist, it'll use the default value on the right. 
 
 Your final `WeatherData` struct should look like this:
 
