@@ -37,7 +37,7 @@ We need to actually tell this location manager to use our View Controller as its
 override func viewDidLoad() {
     locationManager.delegate = self
     locationManager.requestWhenInUseAuthorization()
-    locationManager.request
+    locationManager.requestLocation()
 }
 ```
 
