@@ -18,7 +18,7 @@ public class DarkSkyService {
 We'll also add a function called `weatherForCoordinates` that takes a latitude, a longitude, and can give back an object that contains the Weather Data. Since we don't have a special object for that yet, we'll just use the `Any` type for now.
 
 
-Most functions would just return a value, but that doesn't work for asynchronous network calls. Instead we want to use a completion handler. This completion handler is a function that takes either a Weather Data object (`Any` for now) or an Alamofire Error object. We can express this as `(String?, Error?) -> ()`.
+Most functions would just return a value, but that doesn't work for asynchronous network calls. Instead we want to use a completion handler. This completion handler is a function that takes either a Weather Data object (`Any` for now) or an Alamofire Error object. We can express this as `(Any?, Error?) -> ()`.
 
 Our function will take in two String objects and one `(Any?, Error?) -> ()` function:
 
