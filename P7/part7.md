@@ -50,7 +50,7 @@ let emojiIcons = [
 
 We can access emoji in the dictionary by doing stuff like `emojiIcons["clear-day"]` or `emojiIcons["snow"]`. When we try to access an item that isn't in the dictionary, like `emojiIcons["hurricane"]`, it'll return `nil`. 
 
-Since it can return nil, this is a great place to use the nil-coelecing operator. We can update the icon label by doing `self.weatherIcon.text = emojiIcons[data.icon] ?? "❓"`.
+Since it can return nil, this is a great place to use the nil-coalescing operator. We can update the icon label by doing `self.weatherIcon.text = emojiIcons[data.icon] ?? "❓"`.
 
 This gives us:
 
