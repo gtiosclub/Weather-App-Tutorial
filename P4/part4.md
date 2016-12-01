@@ -2,7 +2,7 @@
 
 To get access to the current weather forecast, we'll be using Alamofire to access the **Dark Sky** Weather API. We'll encapsulate this functionality in its own class called `DarkSkyService`. Create and open a new file called `DarkSkyService.swift`.
 
-Inside this class, you want to add string constants for the API's base URL and an API Key. You can use our key or [get your own](https://darksky.net/dev/register).
+Inside this class, you want to add string constants for the API's base URL and an API Key. You can get your own key [here](https://darksky.net/dev/register).
 
 ```swift
 import Alamofire
@@ -10,7 +10,7 @@ import Alamofire
 public class DarkSkyService {
     
     private static let baseURL = "https://api.darksky.net/forecast/"
-    private static let apiKey = "725fa1cbe3c4e5c6576f04ed217acb1b"
+    private static let apiKey = "YOUR_API_KEY"
     
 }
 ```
