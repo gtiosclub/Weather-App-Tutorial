@@ -34,7 +34,7 @@ We have to mark the completion handler function as `@escaping` because we'll giv
 
 Before we can call the API, we need to build our request URL. A Dark Sky request looks like `https://api.darksky.net/forecast/(api-key)/(latitude),(longitude)`. 
 
-For example, if you enter the URL `https://api.darksky.net/forecast/725fa1cbe3c4e5c6576f04ed217acb1b/37.7749,122.4194` in your web browser, you'll get the current forecast information for San Francisco.
+For example, if you enter the URL `https://api.darksky.net/forecast/YOUR_API_KEY/37.7749,122.4194` in your web browser, you'll get the current forecast information for San Francisco.
 
 We can build this URL by adding `let url = baseURL + apiKey + "\(latitude),\(longitude)"`.
 
