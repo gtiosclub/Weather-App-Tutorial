@@ -37,7 +37,6 @@ We need to actually tell this location manager to use our View Controller as its
 override func viewDidLoad() {
     locationManager.delegate = self
     locationManager.requestWhenInUseAuthorization()
-    locationManager.requestLocation()
 }
 ```
 
@@ -63,7 +62,7 @@ override func viewDidLoad() {
 }
 ```
 
-That function call doesn't actually give us the user's location, though. CoreLocation with pass the coordinates to the Location Manager's delegate, which happens to be our `WeatherViewController`.
+That function call doesn't actually give us the user's location, though. CoreLocation will pass the coordinates to the Location Manager's delegate, which happens to be our `WeatherViewController`.
 
 Since our View Controller is a `CLLocationManagerDelegate`, we need to add methods for our request's success case and failure case:
 
